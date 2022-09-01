@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 96%;
+    margin: 0 2%;
+    z-index: 15;
+}
+.header_white {
+    background-color: rgba(255, 255, 255, .9);
+}
+.header__logo-wrapper {
+    height: 40px;
+    width: 40px;
+}
+.header__logo {
+    margin-top: 4px;
+    width: 40px;
+    height: 40px;
+}

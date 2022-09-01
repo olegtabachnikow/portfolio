@@ -1,0 +1,7 @@
+@import url('../../vendor/normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&display=swap');
+.app {
+  font-family: 'Anonymous Pro', monospace;
+  scroll-behavior: smooth;
+  position: relative;
+}

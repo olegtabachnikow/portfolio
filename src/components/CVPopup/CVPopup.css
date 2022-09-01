@@ -1,0 +1,58 @@
+.popup {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 15;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popup_opened {
+    display: flex;
+}
+.popup__content {
+    max-width: 80%;
+    position: relative;
+    margin: 0 auto;
+    max-height: 70%;
+    z-index: 3;
+}
+.popup__cv-wrapper {
+    overflow-y: scroll;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+.popup__cv {
+    width: 100%;
+}
+.popup__download-link {
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 25px;
+    border: 1px solid #fff;
+    display: block;
+    width: 30%;
+    text-align: center;
+    margin-top: 20px;
+    transition: all .3s linear;
+}
+.popup__download-link:hover {
+    background-color: rgba(0, 0, 0, .6);
+}
+.popup__close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    transition: transform .3s linear;
+}
+.popup__close-button:hover {
+    transform: rotate(270deg);
+}
