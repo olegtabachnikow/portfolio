@@ -2,3 +2,7 @@
     width: 100vw;
     min-height: 100vh;
 }
+.content__contacts {
+    padding: 0 5%;
+    box-sizing: border-box;
+}

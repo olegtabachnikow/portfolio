@@ -7,6 +7,7 @@ import Main from "../Main/Main";
 import Projects from "../Projects/Projects";
 import About from "../About/About";
 import CVPopup from "../CVPopup/CVPopup";
+import Contacts from "../Contacts/Contacts";
 
 function App() {
   const [isBlack, setIsBlack] = React.useState(false);
@@ -28,7 +29,7 @@ function App() {
   return (
     <div className="app">
       <Header isBlack={isBlack}>
-        <Navigation isBlack={isBlack}/>
+        <Navigation isBlack={isBlack} />
       </Header>
       <Content>
         <Main />
@@ -37,9 +38,12 @@ function App() {
         <Projects />
       </Content>
       <Content>
-        <About onOpen={handleOpenPopup}/>
+        <About onOpen={handleOpenPopup} />
       </Content>
-      <CVPopup isOpen={isCVPopupOpen} onClose={closeAllPopups}/>
+      <Content>
+        <Contacts />
+      </Content>
+      <CVPopup isOpen={isCVPopupOpen} onClose={closeAllPopups} />
     </div>
   );
 }

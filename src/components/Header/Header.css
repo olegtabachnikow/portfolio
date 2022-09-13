@@ -13,6 +13,7 @@
 .header__logo-wrapper {
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }
 .header__logo {
     margin-top: 4px;

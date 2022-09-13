@@ -10,7 +10,7 @@ function Projects() {
     <section id="projects" className="projects">
       <Skills />
       <h2 className="projects__title">
-        And this is examples how i implement them
+        And these are examples of how I implement them
       </h2>
       <div className="projects__box">
         {projectsData.map((item, index) => {

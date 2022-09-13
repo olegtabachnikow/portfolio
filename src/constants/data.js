@@ -11,7 +11,7 @@ const projectsData = [
     link: "https://oleg-news-explorer.students.nomoredomainssbs.ru/",
     gitLink: "https://github.com/Eskel4ik/news-explorer-frontend",
     description:
-      "Application allow you to search latest news articles by any topics you want. Registered users can save any articles, they interested in.",
+      "This application allows you to search the latest news articles by any topic you want. Registered users can save any articles, they are interested in.",
     preview: newsExplorer,
     stackUsed: "HTML5, CSS, ReactJS, NodeJS, Express, MongoDB",
   },
@@ -20,7 +20,7 @@ const projectsData = [
     link: "https://www.oleg.students.nomoreparties.sbs/",
     gitLink: "https://github.com/Eskel4ik/react-around-auth",
     description:
-      "One page social network application allow registered users edit their bio & add, like and delete photos.",
+      "Single page social network application, which allows registered users to add, like and delete photos, as well as edit their bio.",
     preview: around,
     stackUsed: "HTML5, CSS, ReactJS, NodeJS, Express, MongoDB",
   },
@@ -29,7 +29,7 @@ const projectsData = [
     link: "https://eskel4ik.github.io/ava-mind-react/",
     gitLink: "https://github.com/Eskel4ik/ava-mind-react",
     description:
-      "One page Buisness card application for representing startup idea and allowing user to test product. App lead users threw questions about his conditions and explain step by step why and how they can use it.",
+      "Single page Buisness card application representing a startup idea and allowing users to learn about the product. App leads users through questions about their conditions, explaining step by step why and how they can use the product.",
     preview: avaMind,
     stackUsed: "HTML, CSS, ReactJS",
   },
@@ -38,7 +38,7 @@ const projectsData = [
     link: "https://eskel4ik.github.io/homeland/index.html",
     gitLink: "https://github.com/Eskel4ik/homeland",
     description:
-      "Landing page responsive template, including short articles about favorite places.",
+      "Landing page responsive template, including short articles about different places.",
     preview: homeland,
     stackUsed: "HTML, CSS",
   },
@@ -47,7 +47,7 @@ const projectsData = [
     link: "https://eskel4ik.github.io/how-to-learn/index.html",
     gitLink: "https://github.com/Eskel4ik/how-to-learn",
     description:
-      "A landing page template Page include information about effective learning techniques and resourses.",
+      "A landing page which includes information about effective learning techniques and resourses.",
     preview: howToLearn,
     stackUsed: "HTML, CSS",
   },

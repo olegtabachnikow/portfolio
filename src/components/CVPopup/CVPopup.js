@@ -16,8 +16,8 @@ function CVPopup({ isOpen, onClose }) {
       </div>
       <a
         className="popup__download-link"
-        href="../../../public/OlegTabachnikowCV.pdf"
-        download
+        href="https://github.com/Eskel4ik/portfolio/raw/gh-pages/OlegTabachnikowCV.pdf"
+        download={true}
       >
         DOWNLOAD
       </a>
