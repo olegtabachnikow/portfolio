@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.7548a4a4.css",
-    "main.js": "/portfolio/static/js/main.3c584cdf.js",
+    "main.js": "/portfolio/static/js/main.cdd126e1.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/ava.png": "/portfolio/static/media/ava.e3215d4daef3f8e4fdc6.png",
     "static/media/question.jpeg": "/portfolio/static/media/question.a1b6e9a2513289312f79.jpeg",
     "static/media/news.png": "/portfolio/static/media/news.7ae899c8945ec9491e50.png",
-    "static/media/OlegTabachnikowCV.png": "/portfolio/static/media/OlegTabachnikowCV.bcb27e7fb9b48ca32a32.png",
+    "static/media/OlegTabachnikowCV.png": "/portfolio/static/media/OlegTabachnikowCV.56f643b3d0bd2ee202c1.png",
     "static/media/me.png": "/portfolio/static/media/me.ca335655b7149c0cf04f.png",
     "static/media/howtolearn.png": "/portfolio/static/media/howtolearn.677e9b2b5d160c6f499c.png",
     "static/media/Success.png": "/portfolio/static/media/Success.abe58f77372fd196afa9.png",
@@ -22,11 +22,11 @@
     "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.32e20978a96ff60c1fdc5a8389e532ba.svg",
     "static/media/facebook-icon.svg": "/portfolio/static/media/facebook-icon.ba7b046401b2b1813fd0e1e89d6aafce.svg",
     "main.7548a4a4.css.map": "/portfolio/static/css/main.7548a4a4.css.map",
-    "main.3c584cdf.js.map": "/portfolio/static/js/main.3c584cdf.js.map",
+    "main.cdd126e1.js.map": "/portfolio/static/js/main.cdd126e1.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7548a4a4.css",
-    "static/js/main.3c584cdf.js"
+    "static/js/main.cdd126e1.js"
   ]
 }
