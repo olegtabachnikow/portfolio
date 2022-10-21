@@ -26,7 +26,7 @@ const projectsData = [
   },
   {
     name: "Ava Mind",
-    link: "https://eskel4ik.github.io/ava-mind-react/",
+    link: "https://avamind.online/",
     gitLink: "https://github.com/Eskel4ik/ava-mind-react",
     description:
       "Single page Buisness card application representing a startup idea and allowing users to learn about the product. App leads users through questions about their conditions, explaining step by step why and how they can use the product.",

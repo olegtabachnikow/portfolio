@@ -9,7 +9,7 @@ function Main() {
   React.useEffect(() => {
     setTimeout(() => {
       setIsTitleTyping(false);
-    }, 4500);
+    }, 2500);
   }, []);
   function toggleHover() {
     setIsHovered(state => !state);

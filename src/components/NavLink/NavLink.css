@@ -37,9 +37,17 @@
 .nav-link_black {
   color: #000;
 }
+.nav-link__icon {
+  width: 25px;
+  filter: invert(1);
+  transition: all .3s linear;
+}
+.nav-link__icon_white {
+   filter: none;
+}
 @media screen and (max-width: 600px) {
     .nav-link {
-        max-width: 33%;
+        max-width: 25%;
         width: 100%;
     }
     .nav-link::after {

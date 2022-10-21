@@ -20,10 +20,10 @@ function About({ onOpen }) {
         <div className="about__text-container">
           <h2 className="about__title">A few words about me</h2>
           <p className="about__text">
-            I am Oleg, a frontend oriented Full Stack Web Developer, I was
-            deployed on Earth 30 years ago ;) For now, I'm hosted in Tel
-            Aviv. I am a new user of this country (Ole Hadash), since april 2021,
-            now looking for my next career oportunity and a new team.
+            I am Oleg, a front-end oriented Full Stack Web Developer, I was
+            deployed on Earth 30 years ago ;) For now, I'm based in Tel Aviv. I
+            am a new citizen of this country (Ole Hadash), since april 2021, and
+            am now looking for my next career opportunity.
           </p>
           <p className="about__text">
             You can read more information about me in my CV. Click on the
