@@ -3,9 +3,18 @@ import around from '../images/around.png';
 import avaMind from '../images/ava.png';
 import homeland from '../images/homeland.png';
 import howToLearn from '../images/howtolearn.png';
-import question from '../images/question.jpeg';
+import league from '../images/league.png';
 
 const projectsData = [
+  {
+    name: "League of Legends DB",
+    link: "https://eskel4ik.github.io/league-of-legends-db/",
+    gitLink: "https://github.com/Eskel4ik/league-of-legends-db",
+    description:
+      "My pet project, dedicated to League of Legends game. You can check here info about all champions and items in game. I still working on some features.",
+    preview: league,
+    stackUsed: "ReactJS, Javascript, HTML, CSS",
+  },
   {
     name: "News Explorer",
     link: "https://oleg-news-explorer.students.nomoredomainssbs.ru/",
@@ -50,15 +59,6 @@ const projectsData = [
       "A landing page which includes information about effective learning techniques and resourses.",
     preview: howToLearn,
     stackUsed: "HTML, CSS",
-  },
-  {
-    name: "Coming soon",
-    link: "",
-    gitLink: "",
-    description:
-      "Something will be here soon ;)",
-    preview: question,
-    stackUsed: "Imagination",
   },
 ];
 
