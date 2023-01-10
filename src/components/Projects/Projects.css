@@ -21,6 +21,8 @@
   display: flex;
   height: 40px;
   align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 .projects__stuff-subtitle {
   margin-right: 20px;
