@@ -15,6 +15,7 @@ const projectsData = [
       'Frontend SPA for Robo VPN services, integrated in Telegram Bot web app.',
     preview: robo,
     stackUsed: 'ReactJS, Javascript, HTML, CSS, DotEnv, Framer Motion',
+    allowed: false
   },
   {
     name: 'League of Legends DB',
@@ -24,6 +25,7 @@ const projectsData = [
       'My pet project, dedicated to League of Legends game. You can check here info about all champions and items in game. I still working on some features.',
     preview: league,
     stackUsed: 'ReactJS, Javascript, HTML, CSS',
+    allowed: true
   },
   {
     name: 'News Explorer',
@@ -33,6 +35,7 @@ const projectsData = [
       'This application allows you to search the latest news articles by any topic you want. Registered users can save any articles, they are interested in.',
     preview: newsExplorer,
     stackUsed: 'HTML5, CSS, ReactJS, NodeJS, Express, MongoDB',
+    allowed: false
   },
   {
     name: 'Around US',
@@ -42,6 +45,7 @@ const projectsData = [
       'Single page social network application, which allows registered users to add, like and delete photos, as well as edit their bio.',
     preview: around,
     stackUsed: 'HTML5, CSS, ReactJS, NodeJS, Express, MongoDB',
+    allowed: false
   },
   {
     name: 'Ava Mind',
@@ -51,6 +55,7 @@ const projectsData = [
       'Single page Buisness card application representing a startup idea and allowing users to learn about the product. App leads users through questions about their conditions, explaining step by step why and how they can use the product.',
     preview: avaMind,
     stackUsed: 'HTML, CSS, ReactJS',
+    allowed: false
   },
   {
     name: 'From Homeland to Homeland',
@@ -60,6 +65,7 @@ const projectsData = [
       'Landing page responsive template, including short articles about different places.',
     preview: homeland,
     stackUsed: 'HTML, CSS',
+    allowed: true
   },
   {
     name: 'How to Learn',
@@ -69,6 +75,7 @@ const projectsData = [
       'A landing page which includes information about effective learning techniques and resourses.',
     preview: howToLearn,
     stackUsed: 'HTML, CSS',
+    allowed: true
   },
 ];
 

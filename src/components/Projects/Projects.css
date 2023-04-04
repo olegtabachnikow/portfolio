@@ -10,7 +10,8 @@
 .projects__box {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  column-gap: 8px;
   max-width: 90%;
   margin: 0 auto;
 }

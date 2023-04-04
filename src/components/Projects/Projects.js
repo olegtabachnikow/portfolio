@@ -9,9 +9,7 @@ function Projects() {
   return (
     <section id='projects' className='projects'>
       <Skills />
-      <h2 className='projects__title'>
-        And these are examples of how I implement them
-      </h2>
+      <h2 className='projects__title'>And these are my projects</h2>
       <div className='projects__box'>
         {projectsData.map((item, index) => {
           return (
@@ -23,6 +21,7 @@ function Projects() {
               description={item.description}
               preview={item.preview}
               stackUsed={item.stackUsed}
+              isWebsiteAllowed={item.allowed}
             />
           );
         })}

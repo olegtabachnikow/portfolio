@@ -1,7 +1,7 @@
 import React from "react";
 import "./Card.css";
 
-function Card({ name, link, gitLink, description, preview, stackUsed }) {
+function Card({ name, link, gitLink, description, preview, isWebsiteAllowed }) {
   const [isHovered, setIsHovered] = React.useState(false);
   function enableHover() {
     setIsHovered(true);
@@ -16,7 +16,7 @@ function Card({ name, link, gitLink, description, preview, stackUsed }) {
         <div className={`card__image-overlay ${isHovered && 'card__image-overlay_hidden'}`}>
           <p className="card__description">{description}</p>
           <div className="card__link-box">
-          {link ? <a className="card__link" href={link} target="blank">
+          {isWebsiteAllowed && link ? <a className="card__link" href={link} target="blank">
             Visit website
           </a> : null}
           {gitLink ? <a className="card__link" href={gitLink} target="blank">
