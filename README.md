@@ -2,4 +2,4 @@
 Welcome to my portfolio project!
 You can watch some of my projects there, read about me, and download/read my CV.
 
-[Link to website](https://eskel4ik.github.io/portfolio/index.html)
+[Link to website](https://olegtabachnikow.github.io/portfolio/index.html)
